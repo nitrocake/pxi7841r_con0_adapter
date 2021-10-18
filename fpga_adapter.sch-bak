@@ -1,0 +1,60 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L spels_dev:SHC-68 X1
+U 1 1 6167F77D
+P 9950 3850
+F 0 "X1" H 9950 5715 50  0000 C CNN
+F 1 "SHC-68" H 9950 5624 50  0000 C CNN
+F 2 "spels_dev:SHC-68_PAD" H 10050 2950 50  0001 C CNN
+F 3 "" H 10050 2950 50  0001 C CNN
+	1    9950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x25_Counter_Clockwise J1
+U 1 1 616828DB
+P 6100 3500
+F 0 "J1" H 6150 4917 50  0000 C CNN
+F 1 "Conn_02x25_Counter_Clockwise" H 6150 4826 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x25-1MP_P2.54mm_Latch12.0mm_Vertical" H 6100 3500 50  0001 C CNN
+F 3 "~" H 6100 3500 50  0001 C CNN
+	1    6100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J2
+U 1 1 6168918B
+P 7950 4850
+F 0 "J2" H 8000 5167 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 8000 5076 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal" H 7950 4850 50  0001 C CNN
+F 3 "~" H 7950 4850 50  0001 C CNN
+	1    7950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J3
+U 1 1 6168F73A
+P 7950 5500
+F 0 "J3" H 8000 5817 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 8000 5726 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal" H 7950 5500 50  0001 C CNN
+F 3 "~" H 7950 5500 50  0001 C CNN
+	1    7950 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
